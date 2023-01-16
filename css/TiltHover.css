@@ -1,0 +1,143 @@
+.tilter {
+	display: block;
+	position: relative;
+	/* width: 300px; */
+	/* height: 415px; */
+	/* margin: 1.5em 2.5em; */
+	color: #fff;
+	flex: none;
+	perspective: 1000px;
+}
+
+.tilter * {
+	pointer-events: none;
+}
+
+.tilter:hover,
+.tilter:focus {
+	color: #fff;
+	outline: none;
+}
+
+/*
+.tilter__figure,
+.tilter__deco,
+.tilter__caption {
+	will-change: transform;
+}*/
+
+.tilter__figure,
+.tilter__image {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.tilter__figure > * {
+	transform: translateZ(0px); /* Force correct stacking order */
+}
+
+.smooth .tilter__figure,
+.smooth .tilter__deco--overlay,
+.smooth .tilter__deco--lines,
+.smooth .tilter__deco--shine div,
+.smooth .tilter__caption {
+	transition: transform 0.2s ease-out;
+}
+
+.tilter__figure {
+	position: relative;
+}
+
+.tilter__figure::before {
+	content: '';
+	position: absolute;
+	width: 90%;
+	height: 90%;
+	top: 5%;
+	left: 5%;
+	box-shadow: 30px 20px 0px 0 #c2d9ef;
+}
+
+.tilter__deco {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.tilter__deco--overlay {
+	background: rgb(197,195,195);
+	background: -moz-linear-gradient(360deg, rgba(197,195,195,0.1) 30%, rgba(26,38,56,0.5) 100%);
+	background: -webkit-linear-gradient(360deg, rgba(197,195,195,0.1) 30%, rgba(26,38,56,0.5) 100%);
+	background: linear-gradient(360deg, rgba(197,195,195,0.1) 30%, rgba(26,38,56,0.5) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c5c3c3",endColorstr="#1a2638",GradientType=1);
+}
+
+.tilter__deco--shine div {
+	position: absolute;
+	width: 200%;
+	height: 200%;
+	top: -50%;
+	left: -50%;
+	background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0.25) 50%, transparent 100%);
+}
+
+/* .tilter__deco--lines {
+	fill: none;
+	stroke: #fff;
+	stroke-width: 1.5px;
+} */
+
+.tilter__deco--lines:before {
+	position: absolute;
+    display: inline-block;
+    content: attr(data);
+    top: -55px;
+    right: 20px;
+    color: #fff;
+	font-size: 35px;
+	font-weight: 800;
+	font-family: Montserrat, sans-serif;
+} 
+
+.tilter__caption {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 4em;
+}
+
+.tilter__title {
+	margin: 0;
+	font-weight: 900;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-family: Montserrat, sans-serif;
+	line-height: 1;
+}
+
+.tilter__description {
+	margin: 1em 0 0 0;
+	font-size: 0.85em;
+	letter-spacing: 0.15em;
+	color: #0e1111;
+}
+
+.tilter:hover .tilter__description {
+	color: #fff;
+}
+
+@media screen and (max-width: 991px) {
+	.tilter__title {
+	font-size: 1.3em;
+}
+.tilter__caption {
+	padding: 2em 1em;
+}
+}
+
+

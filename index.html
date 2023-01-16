@@ -1,0 +1,837 @@
+
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>AVENTURAS Y FOTOS</title>
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+        <!-- Font Awesome icons (free version)-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- Google fonts-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link href="https://fonts.googleapis.com/css2?family=Averia+Libre:wght@300;700&display=swap" rel="stylesheet"> 
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/bootstrap.css" rel="stylesheet" />
+		<link href="css/animate.css" rel="stylesheet" />
+		<link href="css/sweetalert2.min.css" rel="stylesheet" >
+		<link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+		<link href="css/select2.min.css" rel="stylesheet" />
+		<link href="css/select2-bootstrap-5-theme.min.css" rel="stylesheet"/>
+		<link href="css/baguetteBox.css" rel="stylesheet" />
+		<link href="css/TiltHover.css" rel="stylesheet" />
+		<link href="css/nouislider.min.css" rel="stylesheet" />
+		<link href="css/daterangepicker.css" rel="stylesheet" />
+		<link href="css/swiper.min.css" rel="stylesheet" />
+		<link href="css/main.css" rel="stylesheet" />
+		
+		<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]--><script>document.documentElement.className = 'js';</script>
+		
+    </head>
+    <body id="page-top" class="loading">
+	
+		<!-- Page Preloader -->
+		<!-- 
+		<div id="preloader">
+		  <div class="loader"></div>
+		</div>
+		-->
+		<!-- body-overlay 	
+		<div id="body-overlay"></div>
+		-->	
+	
+        <!-- Navigation-->				
+		
+		<!-- Navbar -->
+		<div class="container-fluid position-sticky z-index-sticky top-0"><div class="row"><div class="col-12">
+		<nav id="topnavbar" class="navbar navbar-expand-lg border-radius-xl top-0 z-index-fixed position-absolute py-2 start-0 end-0 ">
+		  <div class="container-fluid ">
+		  <!-- Logo -->
+			<a class="navbar-brand font-weight-bolder ms-sm-3" href="index.html"  >
+			  Aventuras y Fotos
+			</a>
+		  <!-- Logo -->	
+			<button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon mt-2">
+				<span class="navbar-toggler-bar bar1"></span>
+				<span class="navbar-toggler-bar bar2"></span>
+				<span class="navbar-toggler-bar bar3"></span>
+			  </span>
+			</button>
+			<div class="collapse navbar-collapse pt-3 pb-2 py-lg-0 w-100" id="navigation">
+			  <ul class="navbar-nav navbar-nav-hover ms-auto">
+				
+				<!-- Pages -->
+				<li class="nav-item dropdown dropdown-hover mx-2">
+				  <a role="button" class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuBlocks" data-bs-toggle="dropdown" aria-expanded="false">
+					
+				   <i class="fas fa-stream mx-2"></i> Pages <i class="fas fa-angle-down ms-auto ms-md-2"></i>
+				  </a>
+				  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-animation dropdown-md dropdown-md-responsive p-3 border-radius-lg mt-0 mt-lg-3" aria-labelledby="dropdownMenuBlocks">
+					
+					  <li class="nav-item dropdown dropdown-hover dropdown-subitem d-none d-lg-block">
+						<a class="dropdown-item py-2 ps-3 border-radius-md" href="index.html#1">
+						  <div class="w-100 d-flex align-items-center justify-content-between">
+							<div>
+							  <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Tours</h6>
+							  <span class="text-sm">See all pages</span>
+							</div>
+							<i class="fas fa-angle-right"></i>
+						  </div>
+						</a>
+						<div class="dropdown-menu mt-0 py-3 px-2 mt-3">
+						  <a class="dropdown-item ps-3 border-radius-md mb-1" href="tour-grid.html">
+							Tour Grid View
+						  </a>
+						  <a class="dropdown-item ps-3 border-radius-md mb-1" href="tour-list.html">
+							Tour List View
+						  </a>
+						  <a class="dropdown-item ps-3 border-radius-md mb-1" href="tour.html">
+							Single Tour
+						  </a>
+						</div>
+					  </li>
+
+					  <li class="nav-item dropdown dropdown-hover dropdown-subitem d-none d-lg-block">
+						<a class="dropdown-item py-2 ps-3 border-radius-md" href="index.html#1">
+						  <div class="w-100 d-flex align-items-center justify-content-between">
+							<div>
+							  <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Purchase</h6>
+							  <span class="text-sm">See all pages</span>
+							</div>
+							<i class="fas fa-angle-right"></i>
+						  </div>
+						</a>
+						<div class="dropdown-menu mt-0 py-3 px-2 mt-3">
+						  <a class="dropdown-item ps-3 border-radius-md mb-1" href="cart.html">
+							Cart
+						  </a>
+						  <a class="dropdown-item ps-3 border-radius-md mb-1" href="checkout.html">
+							Checkout
+						  </a>
+						  <a class="dropdown-item ps-3 border-radius-md mb-1" href="compare.html">
+							Compare
+						  </a>
+						  <a class="dropdown-item ps-3 border-radius-md mb-1" href="wishlist.html">
+							 Wishlist
+						  </a>
+						</div>
+					  </li>
+
+					  <li class="nav-item dropdown dropdown-hover dropdown-subitem d-none d-lg-block">
+						<a class="dropdown-item py-2 ps-3 border-radius-md" href="index.html#1">
+						  <div class="w-100 d-flex align-items-center justify-content-between">
+							<div>
+							  <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Account </h6>
+							  <span class="text-sm">See all pages</span>
+							</div>
+							<i class="fas fa-angle-right"></i>
+						  </div>
+						</a>
+						<div class="dropdown-menu mt-0 py-3 px-2 mt-3">
+						  <a class="dropdown-item ps-3 border-radius-md mb-1" href="my-account.html">
+							My Account
+						  </a>
+						  <a class="dropdown-item ps-3 border-radius-md mb-1" href="order.html">
+							Order
+						  </a>
+						  <a class="dropdown-item ps-3 border-radius-md mb-1" href="register.html">
+							Register
+						  </a>
+						  <a class="dropdown-item ps-3 border-radius-md mb-1" href="index.html#1" data-bs-toggle="modal" data-bs-target="#SignInModal">
+							Sign In
+						  </a>
+						</div>
+					  </li>
+
+					  <li class="nav-item dropdown dropdown-hover dropdown-subitem d-none d-lg-block">
+						<a class="dropdown-item py-2 ps-3 border-radius-md" href="index.html#1">
+						  <div class="w-100 d-flex align-items-center justify-content-between">
+							<div>
+							  <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Other Pages</h6>
+							  <span class="text-sm">See all pages</span>
+							</div>
+
+							<i class="fas fa-angle-right"></i>
+						  </div>
+						</a>
+						<div class="dropdown-menu mt-0 py-3 px-2 mt-3">
+						  
+						  <a class="dropdown-item ps-3 border-radius-md mb-1" href="about.html">
+							About
+						  </a>
+						  <a class="dropdown-item ps-3 border-radius-md mb-1" href="terms-and-conditions.html">
+							Terms and Conditions
+						  </a>
+						  <a class="dropdown-item ps-3 border-radius-md mb-1" href="privacy-policy.html">
+							Privacy Policy
+						  </a>
+						  <a class="dropdown-item ps-3 border-radius-md mb-1" href="contact.html">
+							Contact
+						  </a>
+						</div>
+					  </li>
+					
+                    <li class="">
+                        
+					<div class="row d-lg-none">
+					  <div class="col-md-12">
+						<div class="d-flex mb-2">
+						  <div class="icon h-10 me-3 d-flex mt-1">
+							<i class="ni ni-single-copy-04 text-gradient text-primary"></i>
+						  </div>
+						  <div class="w-100 d-flex align-items-center justify-content-between">
+							<div>
+							  <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Tours</h6>
+							</div>
+						  </div>
+						</div>
+						<a class="dropdown-item ps-3 border-radius-md mb-1" href="tour-grid.html">
+						  Tour Grid View
+						</a>
+						<a class="dropdown-item ps-3 border-radius-md mb-1" href="tour-list.html">
+						  Tour List View
+						</a>
+						<a class="dropdown-item ps-3 border-radius-md mb-1" href="tour.html">
+						  Single Tour 
+						</a>
+
+						<div class="d-flex mb-2 mt-3">
+						  <div class="icon h-10 me-3 d-flex mt-1">
+							<i class="ni ni-laptop text-gradient text-primary"></i>
+						  </div>
+						  <div class="w-100 d-flex align-items-center justify-content-between">
+							<div>
+							  <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Purchase</h6>
+							</div>
+						  </div>
+						</div>
+						<a class="dropdown-item ps-3 border-radius-md mb-1" href="cart.html">
+						  Cart
+						</a>
+						<a class="dropdown-item ps-3 border-radius-md mb-1" href="checkout.html">
+						  Checkout
+						</a>
+						<a class="dropdown-item ps-3 border-radius-md mb-1" href="compare.html">
+						  Compare
+						</a>
+						<a class="dropdown-item ps-3 border-radius-md mb-1" href="wishlist.html">
+						  Wishlist
+						</a>
+
+
+						<div class="d-flex mb-2 mt-3">
+						  <div class="icon h-10 me-3 d-flex mt-1">
+							<i class="ni ni-badge text-gradient text-primary"></i>
+						  </div>
+						  <div class="w-100 d-flex align-items-center justify-content-between">
+							<div>
+							  <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Account</h6>
+							</div>
+						  </div>
+						</div>
+						<a class="dropdown-item ps-3 border-radius-md mb-1" href="my-account.html">
+						  My Account
+						</a>
+						<a class="dropdown-item ps-3 border-radius-md mb-1" href="order.html">
+						 Order
+						</a>
+						<a class="dropdown-item ps-3 border-radius-md mb-1" href="register.html">
+						  Register
+						</a>
+						<a class="dropdown-item ps-3 border-radius-md mb-1" href="index.html#1" data-bs-toggle="modal" data-bs-target="#SignInModal">
+						  Sign In
+						</a>						
+
+						<div class="d-flex mb-2 mt-3">
+						  <div class="icon h-10 me-3 d-flex mt-1">
+							<i class="ni ni-app text-gradient text-primary"></i>
+						  </div>
+						  <div class="w-100 d-flex align-items-center justify-content-between">
+							<div>
+							  <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Other Pages</h6>
+							</div>
+						  </div>
+						</div>
+						
+						<a class="dropdown-item ps-3 border-radius-md mb-1" href="about.html">
+						  About
+						</a>
+						<a class="dropdown-item ps-3 border-radius-md mb-1" href="terms-and-conditions.html">
+						  Terms and Conditions
+						</a>
+						<a class="dropdown-item ps-3 border-radius-md mb-1" href="privacy-policy.html">
+						  Privacy Policy
+						</a>
+						<a class="dropdown-item ps-3 border-radius-md mb-1" href="contact.html">
+						  Contact
+						</a>
+					  </div>
+					</div>
+					
+					</li>
+
+				  </ul>
+				</li>
+				<!-- Pages -->  			
+			  </ul>
+			</div>
+		  </div>
+		</nav>
+
+		</div></div></div>
+		<!-- End Navbar -->
+		
+
+        <!-- Page Content -->
+        <div class="page-content">
+            <!-- Welcome -->
+            <div class="personal-page rellax" id="welcome" data-rellax-speed="-3">
+                <div class="personal-page-content ">
+                   
+				    <!-- alert -->
+					<div class="alert alert-success alert-dismissible animated jackInTheBox fixed-alert success" role="alert" style="display: none;">
+					<button type="button" class="btn btn-close close btnclosenotifsuccess" data-bs-dismiss="alert" aria-label="Close"></button>
+					<span id="success"></span>
+					</div>
+
+					<div class="alert alert-danger alert-dismissible animated fixed-alert tada danger" role="alert" style="display: none;">
+					<button type="button" class="btn btn-close close btnclosenotif" data-bs-dismiss="alert" aria-label="Close"></button>
+					<span id="danger"></span>
+					</div>
+					<!-- end alert -->	
+
+					<!-- Slider -->
+					<section class="section__slider">
+						<div class="slideshow">
+							<div class="slides">
+								<div class="slide slide--current">
+									<div class="slide__img" style="background-image: url(assets/img/slider/1.jpg)"></div>
+									<h2 class="slide__title">Viajar</h2>
+									<p class="slide__desc">Fotografiando los lugares más impresionantes del mundo</p>
+									<a class="slide__link" href="index.html#1">Más información</a>
+								</div>
+								<div class="slide">
+									<div class="slide__img" style="background-image: url(assets/img/slider/2.jpg)"></div>
+									<h2 class="slide__title">Fotogafía</h2>
+									<p class="slide__desc">Explorando el mundo con un enfoque creativo</p>
+									<a class="slide__link" href="index.html#1">Galería</a>
+								</div>
+								<div class="slide">
+									<div class="slide__img" style="background-image: url(assets/img/slider/3.jpg)"></div>
+									<h2 class="slide__title">Disfruta</h2>
+									<p class="slide__desc">Viajando, capturando y compartiendo</p>
+									<a class="slide__link" href="index.html#1">Próximos destinos</a>
+								</div>
+								<div class="slide">
+									<div class="slide__img" style="background-image: url(assets/img/slider/4.jpg)"></div>
+									<h2 class="slide__title">Combina</h2>
+									<p class="slide__desc">Uniendo tu amor por viajar con la fotografía</p>
+									<a class="slide__link" href="index.html#1">Quiero saber más</a>
+								</div>
+							</div>
+							<nav class="slidenav">
+								<button class="slidenav__item slidenav__item--prev"><i class="fas fa-arrow-left"></i></button>
+								
+								<button class="slidenav__item slidenav__item--next"><i class="fas fa-arrow-right"></i></button>
+							</nav>
+						</div>
+					</section>	
+					<!-- End Slider -->
+					
+                </div>
+            </div>
+			<!-- Welcome-->
+					
+
+			<!-- Promo -->
+            <div class="personal-page-content whitebg" >
+				
+			<div class="container">	
+			<h2 class="slidertitle text-center">Próximos Destinos</h2>
+			
+			<main>
+				
+			<div class="row " >
+			
+				<div class="col-md-6 mx-auto">
+					<div class="scrollcont" >
+						<a href="tour.html" class="tilter ">
+							<div class="tilter__figure">
+								<img class="tilter__image img-fluid scrollimg" src="assets/img/tours/barcelona.jpg" alt="img01" />
+								<div class="tilter__deco tilter__deco--overlay"></div>
+								<div class="tilter__caption">
+									<h3 class="tilter__title">Asturias </h3>
+									<p>Del 20 al 28 de Abril</p>
+								</div>
+								<h2 class="tilter__deco--lines">Plazas Libres</h2>
+							</div>
+						</a>
+					</div>
+				</div>
+				
+				<div class="col-md-6 mx-auto">
+					<div class="scrollcont" >
+						<a href="tour.html" class="tilter ">
+							<div class="tilter__figure">
+								<img class="tilter__image img-fluid scrollimg" src="assets/img/tours/newzealand.jpg" alt="img01" />
+								<div class="tilter__deco tilter__deco--overlay"></div>
+								<div class="tilter__caption">
+									<h3 class="tilter__title">New Zealand</h3>
+								</div>
+								<h2 class="tilter__deco--lines">Completo</h2>
+							</div>
+						</a>
+					</div>
+				</div>
+				
+			</div>
+						
+					
+			<div class="row " >
+			
+				<div class="col-md-6 mx-auto">
+					<div class="scrollcont" >
+						<a href="tour.html" class="tilter ">
+							<div class="tilter__figure">
+								<img class="tilter__image img-fluid scrollimg" src="assets/img/tours/indonesia.jpg" alt="img01" />
+								<div class="tilter__deco tilter__deco--overlay"></div>
+								<div class="tilter__caption">
+									<h3 class="tilter__title">Indonesia </h3>
+								</div>
+								<h2 class="tilter__deco--lines">9 Tours</h2>
+							</div>
+						</a>
+					</div>
+				</div>
+				
+				<div class="col-md-6 mx-auto">
+					<div class="scrollcont" >
+						<a href="tour.html" class="tilter ">
+							<div class="tilter__figure">
+								<img class="tilter__image img-fluid scrollimg" src="assets/img/tours/japan.jpg" alt="img01" />
+								<div class="tilter__deco tilter__deco--overlay"></div>
+								<div class="tilter__caption">
+									<h3 class="tilter__title">Japan</h3>
+								</div>
+								<h2 class="tilter__deco--lines">11 Tours</h2>
+							</div>
+						</a>
+					</div>
+				</div>
+				
+			</div>
+					
+					
+			<div class="row " >
+			
+				<div class="col-md-6 mx-auto">
+					<div class="scrollcont" >
+						<a href="tour.html" class="tilter ">
+							<div class="tilter__figure">
+								<img class="tilter__image img-fluid scrollimg" src="assets/img/tours/paris.jpg" alt="img01" />
+								<div class="tilter__deco tilter__deco--overlay"></div>
+								<div class="tilter__caption">
+									<h3 class="tilter__title">Paris </h3>
+								</div>
+								<h2 class="tilter__deco--lines">23 Tours</h2>
+							</div>
+						</a>
+					</div>
+				</div>
+				
+				<div class="col-md-6 mx-auto">
+					<div class="scrollcont" >
+						<a href="tour.html" class="tilter ">
+							<div class="tilter__figure">
+								<img class="tilter__image img-fluid scrollimg" src="assets/img/tours/venice.jpg" alt="img01" />
+								<div class="tilter__deco tilter__deco--overlay"></div>
+								<div class="tilter__caption">
+									<h3 class="tilter__title">Venice</h3>
+								</div>
+								<h2 class="tilter__deco--lines">8 Tours</h2>
+							</div>
+						</a>
+					</div>
+				</div>
+				
+			</div>
+					
+
+			</main>
+			</div>
+			<div class="space-50"></div>
+			</div>
+			<!-- End Promo -->
+			
+			
+			<!-- Weather  -->
+            <section class="personal-page weatherbg" >
+                <div class="personal-page-content">	
+				<div class="space-50"></div>
+					<h2 class="slidertitle text-center">Weather</h2>				
+						
+					<div class="container-fluid">
+						<div class="row " >
+							<div class="col-md-12">
+							<!-- Swiper -->
+							<div class="swiper-container weatherinfo">
+							  <div class="swiper-wrapper">
+							  
+									<div class="swiper-slide">						
+										<div class="weather">
+											<img class="img-fluid" src="assets/weather/day.svg" alt="img" />
+											<div class="description">
+												Tbilisi <span class="celsius">35°</span>
+											</div>
+										</div>
+									</div>
+									
+									<div class="swiper-slide">						
+										<div class="weather">
+											<img class="img-fluid" src="assets/weather/rainy-3.svg" alt="img" />
+											<div class="description">
+												London <span class="celsius">28°</span>
+											</div>
+										</div>
+									</div>
+									
+									<div class="swiper-slide">						
+										<div class="weather">
+											<img class="img-fluid" src="assets/weather/day.svg" alt="img" />
+											<div class="description">
+												Athens <span class="celsius">36°</span>
+											</div>
+										</div>
+									</div>
+									
+									<div class="swiper-slide">						
+										<div class="weather">
+											<img class="img-fluid" src="assets/weather/cloudy-day-3.svg" alt="img" />
+											<div class="description">
+												New York <span class="celsius">31°</span>
+											</div>
+										</div>
+									</div>
+									
+									<div class="swiper-slide">						
+										<div class="weather">
+											<img class="img-fluid" src="assets/weather/cloudy.svg" alt="img" />
+											<div class="description">
+												Tokyo <span class="celsius">30°</span>
+											</div>
+										</div>
+									</div>
+									
+									<div class="swiper-slide">						
+										<div class="weather">
+											<img class="img-fluid" src="assets/weather/thunder.svg" alt="img" />
+											<div class="description">
+												Tahiti <span class="celsius">34°</span>
+											</div>
+										</div>
+									</div>
+									
+									
+							  </div>
+							  <!-- Add Pagination -->
+							  <div class="space-80"></div>
+							  <div class="swiper-pagination swiper-pagination1"></div>
+							  <!-- Add Arrows -->
+							  <div class="swiper-button-next d-none">
+								<i class="fas fa-long-arrow-alt-right"></i>
+							  </div>
+							  <div class="swiper-button-prev d-none">
+								<i class="fas fa-long-arrow-alt-left"></i>
+							  </div>
+							</div>
+							<!-- Swiper -->	
+							</div>
+						</div>
+					</div>
+						
+				<div class="space-50"></div>	
+                </div>
+            </section>
+			<!-- End Weather  -->
+			
+			
+			<!-- Info -->
+            <section class="personal-page-content whitebg" >
+			<div class="space-50"></div>	
+			<div class="container">		
+				
+				<div class="row " >
+				
+				<h2 class="slidertitle text-center">  ¿Alguna pregunta? </h2>
+				
+					<div class="col-md-6">
+						<div class="info-background " style="background-image: url('assets/img/sales.jpg')">
+							<div class="info">
+								<div class="icon ">
+									<i class="fas fa-headphones-alt"></i>
+								</div>
+								<div class="description">
+									<h4 class="title">For Sales</h4>
+									<p class="subtitle">Automate simple questions.</p>
+									<a href="tel:+12125113220" class="supportinfo">+ 12125113220</a>
+									<a href="mailto:sales@example.com" class="supportinfo">sales@example.com</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-6">
+						<div class="info-background " style="background-image: url('assets/img/support.jpg')">
+							<div class="info">
+								<div class="icon ">
+									<i class="far fa-question-circle"></i>
+								</div>
+								<div class="description">
+									<h4 class="title">24/7 Online Support</h4>
+									<p class="subtitle">We respect the time of our customers.</p>
+									<a href="tel:+12128328100" class="supportinfo">+ 12128328100</a>
+									<a href="mailto:support@example.com" class="supportinfo">support@example.com</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>	
+
+			</div>
+			<div class="space-100"></div>
+            </section>
+			<!-- End Info -->
+
+		    <!-- newsletter  -->
+            <section class="personal-page-newsletter" >
+                <div class="personal-page-content">		
+						
+					<div class="newsletter-bg ">
+						
+						<div class="row g-0" >
+							<div class="col-md-4 ">
+								<div class="newsletter-one d-flex align-items-center justify-content-center">
+									<h3 class="title"><i class="far fa-paper-plane"></i> MANTENTE INFORMADO</h3>
+								</div>
+							</div>
+
+							<div class="col-md-8">
+
+								<div class="newsletter-two d-flex align-items-center justify-content-center">
+									<form class="flex-grow-1">
+										<div class="subscribe-cont">
+											<div class="input-group flex-nowrap">
+												 <span class="input-group-text " id="addon-wrapping"><i class="far fa-envelope"></i></span>
+												 <input type="email" class="form-control " required="required" placeholder="Tu Email" aria-label="Your Email" aria-describedby="addon-wrapping" autocomplete="off">
+												 <button type="submit" class="btn-subscribe rounded-pill">Suscribete</button>
+											</div>
+										</div>
+									</form>
+								</div>
+
+							</div>
+
+						</div>
+					</div>	
+					
+                </div>
+            </section>
+			<!-- newsletter-->
+			
+        </div>
+		
+		
+		<!-- Footer -->
+		<footer class="footer noprint" data-background-color="white">
+		   <div class="container">
+			  <nav style="" class=" ">
+				 <ul>
+					<li>
+					   <a href="about.html" class=" ">
+					  Sobre nosotros               
+					  </a>
+					</li>
+					<li>
+					   <a href="terms-and-conditions.html" class=" ">
+					   Terminos y condiciones                 
+					   </a>
+					</li>
+					<li>
+					   <a href="privacy-policy.html" class=" ">
+					   Politica de privacidad              
+					   </a>
+					</li>
+					<li>
+					   <a href="contact.html" class=" ">
+					   Contacto               
+					   </a>
+					</li>
+				 </ul>
+			  </nav>
+				<div class="copyright" id="copyright">
+				©
+				<script>
+				  document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
+				 </script> AVENTURAS Y FOTOS
+				</div>
+		   </div>
+		</footer>
+		<!-- End Footer -->
+		
+		
+		<!-- cookiealert -->
+
+		<div class="alert text-center cookiealert" role="alert">
+			<span> Usamos cookies. </span>
+		  <br> <span class=""> <strong> <a href="index.html#1" class=""> Politica de cookies </a> </strong> </span>
+			<button type="button" class=" cookiealert-close acceptcookies" aria-label="Close">
+			   <i class="fas fa-check-double"></i>
+			</button>
+		</div>
+
+		<!-- cookiealert -->
+				
+		
+		
+				
+		<!-- backtotop -->
+
+                <div class="text-center col-md-12 ml-auto mr-auto mb-2">
+				<a href="index.html#page-top" class="js-scroll-trigger">
+                    <div class="backtotop box-backtotop-line rotate--180">
+						 <!-- <i class="fas fa-chevron-up"></i>  -->
+                    </div>
+					</a>
+                </div>
+
+		<!-- backtotop -->
+		
+		<!-- core JS-->
+		<script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/modernizr.custom.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/TweenMax.min.js"></script>
+		<script src="js/sweetalert2.min.js"></script>
+		<script src="js/moment.min.js"></script>
+		<script src="js/bootstrap-datetimepicker.js"></script>
+		<script src="js/select2.min.js"></script>
+		<script src="js/baguetteBox.js"></script>
+		<script src="js/swiper.min.js"></script>
+		<script src="js/SmoothScroll.js"></script>
+		<script src="js/nouislider.min.js"></script>
+		<script src="js/daterangepicker.min.js"></script>
+		<script src="js/slide/imagesloaded.pkgd.min.js"></script>
+		<script src="js/slide/anime.min.js"></script>
+		<script src="js/slide/slide.js"></script>
+		<script src="js/TiltHover.js"></script>
+		<script src="js/rellax.js"></script>
+	    <script src="js/main.js"></script>
+
+		<script>
+		
+		/* daterangepicker fix position */	
+		
+		$('input[name="daterange"]').daterangepicker({
+			parentEl: "#mainsearchfilter .modal-body"            
+		});
+
+		/* Rellax */	
+		
+		var rellax = new Rellax('.rellax', {
+		speed: 1,
+		center: false,
+		wrapper: null,
+		round: true,
+		vertical: true,
+		horizontal: false
+	  });
+	  
+	  /* quantity */	
+		
+		$("#mainsearchfilter").delegate(".quantity-plus","click",function () {
+
+        let q =$(this).siblings(".quantity").val();
+        let p = $(this).siblings(".quantity").attr("data-unitPrice");
+        let newQ = Number(q)+1;
+        let newCost = p * newQ;
+        // console.log(p);
+        $(this).siblings(".quantity").val(newQ);
+        $(this).parent().parent().siblings("td").children("p").find(".item-in-cart-cost").html(newCost.toFixed(2));	
+		
+        cartTotal();
+    })
+
+    $("#mainsearchfilter").delegate(".quantity-minus","click",function () {
+
+        let q =$(this).siblings(".quantity").val();
+        let p = $(this).siblings(".quantity").attr("data-unitPrice");
+        if(q>1){
+
+            let newQ = Number(q)-1;
+            let newCost = p * newQ;
+            // console.log(p);
+            $(this).siblings(".quantity").val(newQ);
+            $(this).parent().parent().siblings("td").children("p").find(".item-in-cart-cost").html(newCost.toFixed(2));
+			
+            cartTotal();
+
+        }
+
+    })
+
+       /* sliderPrice */		
+		
+		var sliderp = document.getElementById('sliderPrice');
+		var skipValues = [
+			document.getElementById("price-value-min"),
+			document.getElementById("price-value-max")
+		];
+
+		noUiSlider.create(sliderp, {
+			start: [ 300, 1500 ],
+			connect: true,
+			range: {
+				min:  0,
+				max:  3000
+			},
+			format: {
+				from: function (value) {
+					return parseInt(value);
+				},
+				to: function (value) {
+					return parseInt(value);
+				}
+			}
+		});
+
+		sliderp.noUiSlider.on("update", function (values, handle) {
+			skipValues[handle].innerHTML = values[handle];
+		});
+		
+		
+		/* rating */
+		$('.product-rating span').on('click', function(){
+        var rating = $(this).find('i').attr('data-num');
+
+        $('.product-rating span').removeClass('raiting').removeClass('text-grey');
+        $(this).addClass('rating');
+        $(this).nextAll().addClass('rating');
+        $(this).prevAll().addClass('text-grey');
+
+
+      });
+
+	
+		</script>
+
+
+    </body>
+</html>
